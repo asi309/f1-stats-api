@@ -1,0 +1,26 @@
+{
+  "name": "f1_news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "f1",
+    "news",
+    "trending"
+  ],
+  "author": "Asidipta Chaudhuri",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
